@@ -11,7 +11,9 @@ npm install hexo-renderer-viz
 Insert these lines into your `_config.yml`:
 
 ```yml
-renderer_viz:
+viz_renderer:
   enable: true
   src_ext: dot # default extension name of src file
 ```
+
+Then, any files end with `.dot` in `@/source/` will be rendered as SVG pictures.
