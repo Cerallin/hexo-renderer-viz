@@ -1,0 +1,22 @@
+{
+  "name": "hexo-renderer-viz",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "description": "A plugin to render dot files into svg.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "hexo",
+    "graphviz"
+  ],
+  "author": "Cerallin <cerallin@cerallin.top>",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "viz.js": "^2.1.2"
+  }
+}
